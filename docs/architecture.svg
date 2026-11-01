@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470" role="img" aria-labelledby="title desc">
+  <title id="title">Credit profile analysis workflow</title>
+  <desc id="desc">Synthetic data or a user CSV feeds validation and cleaning, followed by exploratory analysis and customer-separated evaluation. Both produce aggregate reports and a notebook.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#7f98b5"/></marker></defs>
+  <rect width="1120" height="470" rx="20" fill="#f2f6fa"/>
+  <text x="42" y="48" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#397a9a" letter-spacing="2">CREDIT PROFILE ANALYSIS</text>
+  <text x="42" y="88" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#172b4d">From customer histories to auditable results</text>
+  <g fill="none" stroke="#7f98b5" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M262 246 H312"/><path d="M532 246 H558 V181 H595"/>
+    <path d="M558 246 V321 H595"/><path d="M815 181 H843 V246 H878"/>
+    <path d="M815 321 H843 V246"/>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <rect x="42" y="174" width="220" height="144" rx="12" fill="#172b4d"/>
+    <text x="62" y="207" font-size="13" fill="#8dc7e1">01 / INPUT</text>
+    <text x="62" y="240" font-size="20" font-weight="700" fill="white">Monthly histories</text>
+    <text x="62" y="268" font-size="14" fill="#d9e7f1">Synthetic demo + manifest</text>
+    <text x="62" y="291" font-size="14" fill="#d9e7f1">or explicit user CSV</text>
+    <rect x="312" y="174" width="220" height="144" rx="12" fill="white" stroke="#cbd9e5"/>
+    <text x="332" y="207" font-size="13" fill="#397a9a">02 / PREPARATION</text>
+    <text x="332" y="240" font-size="20" font-weight="700" fill="#172b4d">Validate and clean</text>
+    <text x="332" y="268" font-size="14" fill="#52677f">Schema, parsing, duplicates</text>
+    <text x="332" y="291" font-size="14" fill="#52677f">Quality audit + ratios</text>
+    <rect x="595" y="127" width="220" height="108" rx="12" fill="white" stroke="#cbd9e5"/>
+    <text x="615" y="159" font-size="13" fill="#397a9a">03 / EXPLORATION</text>
+    <text x="615" y="188" font-size="18" font-weight="700" fill="#172b4d">Distributions and trends</text>
+    <text x="615" y="213" font-size="14" fill="#52677f">Six charts + summary tables</text>
+    <rect x="595" y="267" width="220" height="108" rx="12" fill="white" stroke="#cbd9e5"/>
+    <text x="615" y="299" font-size="13" fill="#397a9a">04 / EVALUATION</text>
+    <text x="615" y="328" font-size="19" font-weight="700" fill="#172b4d">Hold out customers</text>
+    <text x="615" y="353" font-size="14" fill="#52677f">Baseline + two classifiers</text>
+    <rect x="878" y="174" width="200" height="144" rx="12" fill="#d8f1eb" stroke="#8bd0be"/>
+    <text x="898" y="207" font-size="13" fill="#216d59">05 / DELIVERY</text>
+    <text x="898" y="240" font-size="20" font-weight="700" fill="#172b4d">Portfolio report</text>
+    <text x="898" y="268" font-size="14" fill="#325e55">Notebook + evidence</text>
+    <text x="898" y="291" font-size="14" fill="#325e55">Tests + reproducible run</text>
+    <text x="42" y="427" font-size="14" fill="#52677f">SYNTHETIC DEMONSTRATION • No real customer data • Credit-score analysis, not confirmed fraud detection</text>
+  </g>
+</svg>
