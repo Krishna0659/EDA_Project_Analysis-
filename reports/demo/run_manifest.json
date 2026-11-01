@@ -1,0 +1,14 @@
+{
+  "data_kind": "synthetic",
+  "input_filename": "synthetic_credit.csv",
+  "input_sha256": "95b2bb0a8b71469a9856a0048a9ec92ca29aaf02d0f96636023ec9a415b17b22",
+  "seed": 42,
+  "python": "3.13.12",
+  "history_unit": "months",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.9.0"
+  }
+}

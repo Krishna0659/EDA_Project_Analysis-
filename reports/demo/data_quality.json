@@ -1,0 +1,129 @@
+{
+  "input_rows": 12024,
+  "exact_duplicates_removed": 24,
+  "clean_rows": 12000,
+  "history_numeric_unit": "months",
+  "columns": {
+    "Age": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 60,
+      "missing_after": 60
+    },
+    "Annual_Income": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Monthly_Inhand_Salary": {
+      "missing_before": 240,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 240
+    },
+    "Num_Bank_Accounts": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Num_Credit_Card": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Interest_Rate": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Num_of_Loan": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Delay_from_due_date": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Num_of_Delayed_Payment": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Changed_Credit_Limit": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Num_Credit_Inquiries": {
+      "missing_before": 240,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 240
+    },
+    "Outstanding_Debt": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Credit_Utilization_Ratio": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Credit_History_Age": {
+      "missing_before": 240,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 240
+    },
+    "Total_EMI_per_month": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Amount_invested_monthly": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Monthly_Balance": {
+      "missing_before": 0,
+      "parse_failures": 0,
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Occupation": {
+      "domain_invalid": 0,
+      "missing_after": 240
+    },
+    "Credit_Mix": {
+      "domain_invalid": 0,
+      "missing_after": 120
+    },
+    "Payment_of_Min_Amount": {
+      "domain_invalid": 0,
+      "missing_after": 0
+    },
+    "Payment_Behaviour": {
+      "domain_invalid": 0,
+      "missing_after": 0
+    }
+  },
+  "customers": 1500,
+  "unlabeled_rows": 0,
+  "missing_cells_after": 1380
+}

@@ -1,0 +1,132 @@
+{
+  "seed": 42,
+  "selection_metric": "validation macro F1",
+  "selected_model": "random_forest",
+  "validation": {
+    "majority_baseline": {
+      "accuracy": 0.4625,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.2108262108262108
+    },
+    "logistic_regression": {
+      "accuracy": 0.6841666666666667,
+      "balanced_accuracy": 0.7100666910104296,
+      "macro_f1": 0.6835192944450906
+    },
+    "random_forest": {
+      "accuracy": 0.6979166666666666,
+      "balanced_accuracy": 0.6928080530621367,
+      "macro_f1": 0.6927085469680835
+    }
+  },
+  "test": {
+    "accuracy": 0.6883333333333334,
+    "balanced_accuracy": 0.7037716161322972,
+    "macro_f1": 0.6870420730281026
+  },
+  "test_majority_baseline": {
+    "accuracy": 0.44458333333333333,
+    "balanced_accuracy": 0.3333333333333333,
+    "macro_f1": 0.20517257955965773
+  },
+  "test_macro_f1_customer_bootstrap_95pct": [
+    0.6641335950936669,
+    0.7103248278496995
+  ],
+  "bootstrap_repetitions": 200,
+  "split": {
+    "train": {
+      "rows": 7200,
+      "customers": 900,
+      "class_counts": {
+        "Poor": 2416,
+        "Standard": 3423,
+        "Good": 1361
+      }
+    },
+    "validation": {
+      "rows": 2400,
+      "customers": 300,
+      "class_counts": {
+        "Poor": 855,
+        "Standard": 1110,
+        "Good": 435
+      }
+    },
+    "test": {
+      "rows": 2400,
+      "customers": 300,
+      "class_counts": {
+        "Poor": 856,
+        "Standard": 1067,
+        "Good": 477
+      }
+    }
+  },
+  "customer_overlap": 0,
+  "classification_report": {
+    "Poor": {
+      "precision": 0.7538461538461538,
+      "recall": 0.8014018691588785,
+      "f1-score": 0.7768969422423556,
+      "support": 856.0
+    },
+    "Standard": {
+      "precision": 0.6787678767876788,
+      "recall": 0.5782567947516402,
+      "f1-score": 0.6244939271255061,
+      "support": 1067.0
+    },
+    "Good": {
+      "precision": 0.6006884681583476,
+      "recall": 0.7316561844863732,
+      "f1-score": 0.6597353497164461,
+      "support": 477.0
+    },
+    "accuracy": 0.6883333333333334,
+    "macro avg": {
+      "precision": 0.6777674995973935,
+      "recall": 0.7037716161322972,
+      "f1-score": 0.6870420730281026,
+      "support": 2400.0
+    },
+    "weighted avg": {
+      "precision": 0.690027513140122,
+      "recall": 0.6883333333333334,
+      "f1-score": 0.6858552352571318,
+      "support": 2400.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      686,
+      165,
+      5
+    ],
+    [
+      223,
+      617,
+      227
+    ],
+    [
+      1,
+      127,
+      349
+    ]
+  ],
+  "label_order": [
+    "Poor",
+    "Standard",
+    "Good"
+  ],
+  "excluded_features": [
+    "ID",
+    "Customer_ID",
+    "Name",
+    "SSN",
+    "Month",
+    "Type_of_Loan",
+    "Credit_Score"
+  ],
+  "interpretation": "New-customer holdout within the same synthetic period; not a future-month backtest or fraud detector."
+}

@@ -1,0 +1,4 @@
+Credit_Score,Annual_Income,Outstanding_Debt,Delay_from_due_date,Credit_Utilization_Ratio,EMI_to_Monthly_Salary
+Poor,52671.49,17006.4,18.0,47.77,0.190244276137697
+Standard,52613.455,8048.87,9.0,32.28,0.11006767606963835
+Good,49545.38,1277.37,1.0,17.05,0.035420170254087585
