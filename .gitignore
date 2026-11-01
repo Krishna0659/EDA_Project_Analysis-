@@ -1,0 +1,39 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Private inputs and generated local runs (publish only reviewed demo outputs)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+reports/local/
+reports/validation/
+*.pkl
+*.joblib
+*.parquet
+dataset.csv
+train.csv
+test.csv
+
+# Credentials, editor and operating-system files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
