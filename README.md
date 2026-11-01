@@ -152,6 +152,17 @@ references/            Original repository overview
   outcome timing, calibration, subgroup evaluation and drift checks are needed
   before drawing operational conclusions.
 
+## Verification
+
+- **20 automated tests passed**, covering cleaning, invalid inputs, customer
+  separation, training-only imputation, provenance and complete report generation.
+- **All 10 notebook code cells executed** without errors in a fresh kernel.
+- A [clean GitHub Actions run](https://github.com/Krishna0659/EDA_Project_Analysis-/actions/runs/41317221808)
+  installed the recorded dependencies on Linux, reran the tests and full analysis,
+  executed the notebook, and uploaded the generated reports.
+- Six charts and the architecture diagram were visually reviewed; local
+  documentation links were checked.
+
 ## Attribution
 
 Original EDA reference: **VenkyAdi / EDA---Projects**, pinned at
