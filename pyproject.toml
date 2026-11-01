@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-profile-analysis"
+version = "1.0.0"
+description = "Reproducible credit-profile EDA and customer-separated evaluation"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<4",
+  "matplotlib>=3.8,<4",
+  "scikit-learn>=1.5,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8", "jupyterlab>=4,<5"]
+
+[project.scripts]
+credit-analysis = "credit_analysis.pipeline:main"
+credit-demo = "credit_analysis.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["credit_analysis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

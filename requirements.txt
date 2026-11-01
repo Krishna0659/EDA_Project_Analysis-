@@ -1,0 +1,5 @@
+# Direct runtime versions used for the published demo; Python 3.13.
+numpy==2.2.6
+pandas==3.0.3
+matplotlib==3.10.8
+scikit-learn==1.9.0

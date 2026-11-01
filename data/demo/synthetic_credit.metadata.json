@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "generator": "credit_analysis.demo",
+  "seed": 42,
+  "customers": 1500,
+  "months": 8,
+  "rows_including_duplicates": 12024,
+  "sha256": "95b2bb0a8b71469a9856a0048a9ec92ca29aaf02d0f96636023ec9a415b17b22",
+  "currency": "unspecified monetary units; not observed customer currency",
+  "limitations": "Designed correlations and noisy labels; no real customers, fraud labels, or empirical performance claims."
+}
